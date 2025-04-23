@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #f8f0f5;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #d6336c;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d6336c;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('images/cherry-blossom-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero-text h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #d6336c;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.locations {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.locations h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #d6336c;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f8f0f5;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 15px;
+  color: #d6336c;
+}
+
+.card p {
+  margin: 0 15px 15px;
+}
+
+footer {
+  background-color: #d6336c;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
